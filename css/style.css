@@ -1,0 +1,218 @@
+body{
+    background-color:#ababac;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+figure {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9B59B6;
+    float: left;
+    transition: 3s;
+    margin: 0;
+}
+
+#titulo{
+    width: 800px;
+    height: 100px;
+    background-color: #863DFE ;
+    float: left;
+}
+
+#subtitulo{
+    width: 800px;
+    height: 100px;
+    background-color: #81daf5;
+    float: left;
+}
+
+#titulo p {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#subtitulo p {
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+/* style nav-bar*/
+nav{
+    width: 1000px;
+    height: 60px;
+    background: #48C9B0 ;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    font-size: 25px;
+    color: cyan;
+}
+
+nav ul li #Contacto:hover {
+    font-size: 25;
+    color: red;
+}
+
+/*style of hoja de vida*/
+
+section, aside {
+    display: inline-block;
+    margin: 5px 0px 0px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+section {
+    width: 570px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+#article1 {
+    width: 100%;
+    float: left;
+    background-color: #CCD1D1 ;
+    padding-bottom: 18px;
+}
+
+#article2 {
+    width: 100%;
+    float: left;
+    background-color: lemonchiffon;
+    padding-bottom: 50px;
+}
+
+/*redes sociales*/
+
+aside{
+    width: 180px;
+    position: relative;
+    background-color: #c7e1e2;
+    box-shadow: 2px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.8em;
+}
+
+
+aside ul img{
+    width: 50px;
+    transition: .3s;
+}
+
+aside ul img:hover {
+    width: 75px;
+}
+
+
+#miproyecto{
+    width: 100%;
+}
+
+section p {
+    padding: 0px 10px;
+}
+
+section h4 p{
+    margin: -15px 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+/*Stely of formulario*/
+
+.formulario {
+    width: 400px; 
+    margin: auto; 
+    background-color: #E2ECEE; 
+    font-family: sans-serif; 
+    font-size: 12px; 
+    color: #798e94; 
+    padding-bottom: 1px;
+}
+   
+.contacto{ 
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 20px;
+    margin-top: 0px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+
+.contacto label{ 
+    display: block; 
+    font-weight: bold;
+}
+
+.contacto div{
+ margin-bottom: 15px; 
+}
+
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px; 
+    width: 294px; 
+    border: 1px solid #CED5D7; 
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7; 
+    margin: 5px 0; 
+} 
+
+.contacto input[type='text']:focus, .contacto textarea:focus{
+ outline: none; 
+ box-shadow:0 0 0 3px #88e9ec; 
+}
+
+/* style the bottom of send*/
+
+.contacto input[type='submit']{ 
+    border: 1px solid #CED5D7; 
+    box-shadow:0 0 0 3px #EEF5F7; 
+    padding: 8px 16px; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 0px white; 
+    background: #AAf1f6; 
+    background: -moz-linear-gradient(top, #AAf1f6 0%, #cfe6ef 100%); 
+    background: -webkit-linear-gradient(top, #AAf1f6 0%,#cfe6ef 100%); 
+} 
+
+.contacto input[type='submit']:hover{ 
+    background: #edfcff; 
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%); 
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%); 
+} 
+   
+.contacto input[type='submit']:active{ 
+    background: #efe6ef; 
+    background: -moz-linear-gradient(top, #efe6ef 0%, #edfcff 100%); 
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%); 
+}
+   
